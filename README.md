@@ -28,4 +28,4 @@ run_analysis.R does the following:
 This is an output data set by run_analysis.R.
 
 # CodeBook.md
-CodeBook.md describs the variables, the data, and any transformations or work that I performed to clean up the data.
+CodeBook.md describes the variables, the data, and any transformations or work that the run_analysis.R script performed to clean up the data.
