@@ -1,6 +1,16 @@
 # Code book
 
-# Variables
+# Raw data
+x_test.txt, y_test.txt, subject_test.txt in test file and x_train.txt, y_train.txt, subject_train.txt in train file are the sources of raw data.
+
+# Data transform
+1. Merges the raw data sets to create one data set and rename the column names.
+2. Extracts only the measurements on the mean and standard deviation for each measurement. 
+3. Uses descriptive activity names to name the activities in the data set
+4. Appropriately labels the data set with descriptive variable names. 
+5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+# Variables in the output file after running run_analysis.R script.
 1. Subject: Identifier of the subject who carried out the experiment.
 2. Activity: Experimental activities(Walking, Walking up, Walking down, Sitting, Standing, Laying)
 3. tBodyAcc.mean...X
